@@ -56,6 +56,7 @@ A simple jquery library for dynamically adding and removing DOM elements such as
 	<script type="text/javascript">
 	
 		$('#form .add_field').adds('#form .parent_container .template_element', { removeOriginal : false });
+		$('.remove').removesParent(); // Apply remove to template element
 	
 	</script>
 
